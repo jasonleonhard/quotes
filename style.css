@@ -1,0 +1,63 @@
+body {
+  background: lightGrey;
+}
+
+button:focus {
+  outline: none;
+}
+
+#addQuote {
+  background: darkGrey;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#addQuote:active {
+  background: black;
+  color: white;
+}
+
+.author {
+  color: white;
+  float: right;
+}
+
+.node {
+  background: grey;
+  border: 1px solid #BFBFBF;
+  box-shadow: 3px 3px 2px #aaaaaa;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  max-width: 250px;
+  padding: 10px 10px 20px 10px;
+}
+
+.rotate_right {
+  float: left;
+  -ms-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+.rotate_left {
+  float: left;
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+.quote {
+  color: lightGrey;
+  font-style: italic;
+}
+
+.quote:before {
+  content: open-quote;
+}
+.quote:after {
+  content: close-quote;
+}
